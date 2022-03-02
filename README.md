@@ -49,11 +49,11 @@ my_vvCV_model.saved_BQ_est
   
 * To reproduce the results of _South function example_, run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/South_function_pdframe_saved.pkl`).
 
-   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `./VVCVs-Code/South_Function/South_function_experiments.py` and then run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py`
+   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `Vector-valued-Control-Variates-Code/South_Function/South_function_experiments.py` and then run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py`
 
 * To reproduce the results of _Computation of the Model Evidence for Dynamical Systems_, run `Vector-valued-Control-Variates-Code/TI_Example/Plot_TI_example.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/TI_example_all_data.pkl`).
 
-   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `Vector-valued-Control-Variates-Code/TI_Example/Thermodynamic_Integration_experiments.py` and then run `./VVCVs-Code/TI_Example/Plot_TI_example.py`
+   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `Vector-valued-Control-Variates-Code/TI_Example/Thermodynamic_Integration_experiments.py` and then run `Vector-valued-Control-Variates-Code/TI_Example/Plot_TI_example.py`
 
 * For the experiments of _step function example_ and _Borehole function example_, the steps are similar.
 
