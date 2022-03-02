@@ -43,17 +43,17 @@ my_vvCV_model.saved_BQ_est
 
 
 ## Reproducing Experiments
-* The code of _Vector-valued Control Variates_ (vvCVs) is in the folder `./VVCVs-Code/TI_Example/src_vvCV_MDMP/`. This includes the most generalised version of vvCVs used in our paper, i.e., when all distributions and integrands are different.
+* The code of _Vector-valued Control Variates_ (vvCVs) is in the folder `Vector-valued-Control-Variates-Code/src/src_vvCV_MDMP/`. This includes the most generalised version of vvCVs used in our paper, i.e., when all distributions and integrands are different.
 
-    * A simpler case is when we only have one target distribution and mulitple integrands, of which code is in the folder `./VVCVs-Code/Step_Function/src_vvCV_MD1P/`.
+    * A simpler case is when we only have one target distribution and mulitple integrands, of which code is in the folder `Vector-valued-Control-Variates-Code/src/src_vvCV_MD1P/`.
   
-* To reproduce the results of _South function example_, run `./VVCVs-Code/South_Function/Plot_South_function_experiments.py` (this will use the data stored in `./VVCVs-Code/South_function_pdframe_saved.pkl`).
+* To reproduce the results of _South function example_, run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/South_function_pdframe_saved.pkl`).
 
-   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `./VVCVs-Code/South_Function/South_function_experiments.py` and then run `./VVCVs-Code/South_Function/Plot_South_function_experiments.py`
+   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `./VVCVs-Code/South_Function/South_function_experiments.py` and then run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py`
 
-* To reproduce the results of _Computation of the Model Evidence for Dynamical Systems_, run `./VVCVs-Code/TI_Example/Plot_TI_example.py` (this will use the data stored in `./VVCVs-Code/TI_example_all_data.pkl`).
+* To reproduce the results of _Computation of the Model Evidence for Dynamical Systems_, run `Vector-valued-Control-Variates-Code/TI_Example/Plot_TI_example.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/TI_example_all_data.pkl`).
 
-   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `./VVCVs-Code/TI_Example/Thermodynamic_Integration_experiments.py` and then run `./VVCVs-Code/TI_Example/Plot_TI_example.py`
+   * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `Vector-valued-Control-Variates-Code/TI_Example/Thermodynamic_Integration_experiments.py` and then run `./VVCVs-Code/TI_Example/Plot_TI_example.py`
 
 * For the experiments of _step function example_ and _Borehole function example_, the steps are similar.
 
