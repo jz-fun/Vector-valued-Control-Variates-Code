@@ -6,6 +6,7 @@ To create identical conda environment, please run,
 ```shell
 conda create --name vvCV --file spec-file.txt
 ```
+We use a Mac Laptop with Intel chip.
 
 ## Use VVCVs for your own data
 ```python
