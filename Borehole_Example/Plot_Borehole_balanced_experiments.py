@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 # Extract Saved Outputs
-my_vv_CV_DF = pd.read_pickle("Balanced_Borehole_Example_PDframe.pkl")
+my_vv_CV_DF = pd.read_pickle("../Balanced_Borehole_Example_PDframe.pkl")
 
 # sns.set_style(style='white')
 # sns.set_style(style='whitegrid')
