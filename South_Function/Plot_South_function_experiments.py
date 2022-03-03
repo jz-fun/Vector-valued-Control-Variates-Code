@@ -139,7 +139,7 @@ with torch.no_grad():
 a = np.linspace(-5, 5, 500)
 b = 1 + a + a**2 + np.sin(np.pi * a ) * np.exp(-a**2)  # HF
 c = 1.5 + a + 1.5 * (a**2) + 1.75 * np.sin(np.pi * a ) * np.exp(-a**2) # LF
-my_vv_CV_DF_giant_f1f2_withoutCF = pd.read_pickle("South_function_pdframe_saved.pkl")
+my_vv_CV_DF_giant_f1f2_withoutCF = pd.read_pickle("../South_function_pdframe_saved.pkl")
 
 
 sns.set_style("white")
