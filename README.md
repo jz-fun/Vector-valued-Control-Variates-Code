@@ -14,14 +14,14 @@ conda create --name vvCV --file spec-file.txt
 my_vvCV_model = VV_CV_vectorvaluedfuncs_model_MDMP(vv_cv_objective, \
                                                    prior_kernel, base_kernel, \
                                                    Xs_tensor, Ys_tensor, scores_Tensor)
-        """
-        :param vv_cv_objective:  an objective class. Here should be 'penalized_ls_objective_vectorvaluedfunc_MDMP'
-        :param prior_kernel:   a class. Here should be 'stein_matrix_valued_kernel'
-        :param base_kernel:    a class; since we use K = B k, so here this class is scalar-valued kernel class, e.g, base_kernel_2
-        :param Xs_tensor:     3d tensor, T * m * d when assuming all datasets have m points, i.e. m = m_1 =... =m_T
-        :param Ys_tensor:     3d tensor, T * m * 1 when assuming all datasets have m points, i.e. m = m_1 =... =m_T
-        :param scores_Tensor: 4d Tensor, T * m * T * d ; That is, we have T tasks, each has a dataset with sample size m. For each instance, we need a 2d Tensor of size T*d.
-        """
+       # """
+       # :param vv_cv_objective:  an objective class. Here should be 'penalized_ls_objective_vectorvaluedfunc_MDMP'
+       # :param prior_kernel:   a class. Here should be 'stein_matrix_valued_kernel'
+       # :param base_kernel:    a class; since we use K = B k, so here this class is scalar-valued kernel class, e.g, base_kernel_2
+       # :param Xs_tensor:     3d tensor, T * m * d when assuming all datasets have m points, i.e. m = m_1 =... =m_T
+       # :param Ys_tensor:     3d tensor, T * m * 1 when assuming all datasets have m points, i.e. m = m_1 =... =m_T
+       # :param scores_Tensor: 4d Tensor, T * m * T * d ; That is, we have T tasks, each has a dataset with sample size m. For each instance x_i, we need a 2d Tensor of size T*d, i.e., dlog\pi_t(x_i)dx_i for t=1, ...T.
+       # """
 
 # Step 2. Tune kernel hyper-parameters
 my_vvCV_model.do_tune_kernelparams_negmllk(batch_size_tune, flag_if_use_medianheuristic, beta_cstkernel, lr, epochs, verbose=False)
