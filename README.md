@@ -1,5 +1,5 @@
 # Vector-valued Control Variates
-Code release for the paper [Vector-valued Control Variates](https://arxiv.org/abs/2109.08944).
+Code release for our paper [Vector-valued Control Variates](https://arxiv.org/abs/2109.08944).
 
 ## Requirements
 To create identical conda environment, please run,
