@@ -1,5 +1,9 @@
-import seaborn as sns
+
 import pickle
+from matplotlib import pyplot as plt
+import torch
+import seaborn as sns
+import numpy as np
 
 from src.src_vvCV_MD1P.stein_operators import *
 from src.src_vvCV_MD1P.sv_CV import *
@@ -210,7 +214,6 @@ def helper_standard_Gaussian_PDF(x):
 
 
 ## Plot a fitted line for squared exponetial kernel.
-from matplotlib import pyplot as plt
 sns.set_style("white")
 all_x = torch.cat((X1, X2), dim=0)
 all_x_dens = helper_standard_Gaussian_PDF(all_x)
