@@ -2,7 +2,7 @@
 Code release for the paper [Vector-valued Control Variates](https://arxiv.org/abs/2109.08944).
 
 ## Requirements
-To create identical conda environment, please run
+To create identical conda environment, please run,
 ```shell
 conda create --name vvCV --file spec-file.txt
 ```
