@@ -2,17 +2,10 @@
 Code release for the paper [Vector-valued Control Variates](https://arxiv.org/abs/2109.08944).
 
 ## Requirements
-We run code on the basis of _Python 3.7_, _Pycharm_ and a Mac Laptop with Intel chip.
+To create identical conda environment, please run
+```shell
+conda create --name vvCV --file spec-file.txt
 ```
-matplotlib==3.5.1
-scipy==1.8.0
-torch==1.10.2
-numpy==1.22.2
-seaborn==0.11.2
-pandas==1.4.1
-```
-If you find difficulties to install _torch_ using the _requirements.txt_, please go to the website of pytorch and install a version suitable for your computer.
-
 
 ## Use VVCVs for your own data
 ```python
