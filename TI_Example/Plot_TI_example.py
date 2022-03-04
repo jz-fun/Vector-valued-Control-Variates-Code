@@ -3,7 +3,7 @@ import numpy as np
 import torch
 
 # Extract Saved Outputs
-with open('../TI_example_all_data.pkl', 'rb') as input:
+with open('../data/TI_example_all_data.pkl', 'rb') as input:
     I_svCV = pickle.load(input)
     print(I_svCV)
 

@@ -252,7 +252,7 @@ for i in range(no_replica_ty2):
 ##################
 # Comments: If you want to rerun the above experiment and save your own results, please uncomment the following block to save your data.
 #
-# with open('Step_funcion_all_data.pkl', 'wb') as output:
+# with open('../data/Step_funcion_all_data.pkl', 'wb') as output:
 #     #
 #     no_replica_ty2 = no_replica_ty2
 #     pickle.dump(no_replica_ty2, output, pickle.HIGHEST_PROTOCOL)

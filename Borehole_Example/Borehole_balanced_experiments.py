@@ -521,7 +521,7 @@ my_vv_CV_DF['cv_est']
 ##################
 # If you want to rerun the above experiment and save your own results, please uncomment the following line to save your data.
 
-# my_vv_CV_DF.to_pickle("Balanced_Borehole_Example_PDframe.pkl")
+my_vv_CV_DF.to_pickle("../data/Balanced_Borehole_Example_PDframe.pkl")
 
 
  

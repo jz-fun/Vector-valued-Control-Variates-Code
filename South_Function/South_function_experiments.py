@@ -1,4 +1,6 @@
 import pickle
+import numpy as np
+import pandas as pd
 from src.src_vvCV_MDMP.vv_CV_MDMP import *
 
 from South_Function.South_function_trainer import *
@@ -113,10 +115,6 @@ MSE_dat
 
 
 # Plot
-import numpy as np
-import pandas as pd
-
-
 # Form a pd.dataframe
 for i in range(no_sets):
     # vv-CV
@@ -193,9 +191,9 @@ my_vv_CV_DF_giant_f1f2['cv_est']
 #
 # my_vv_CV_DF_giant_f1f2 = vv_CV_est_giant_f1f2.append([sv_CV_est_giant_f1f2])
 #
-# my_vv_CV_DF_giant_f1f2.to_pickle("South_function_pdframe_saved.pkl")
+# my_vv_CV_DF_giant_f1f2.to_pickle("../data/South_function_pdframe_saved.pkl")
 #
-# with open('South_function_all_data.pkl', 'wb') as output:
+# with open('../data/South_function_all_data.pkl', 'wb') as output:
 #     MSE_MyvvCV_ests_std = MSE_MyvvCV_ests_std
 #     pickle.dump(MSE_MyvvCV_ests_std, output, pickle.HIGHEST_PROTOCOL)
 #

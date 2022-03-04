@@ -286,7 +286,7 @@ x_illu = np.linspace(-3, 3, 500)
 
 
 # Extract Saved Outputs
-with open('../Step_funcion_all_data.pkl', 'rb') as input:
+with open('../data/Step_funcion_all_data.pkl', 'rb') as input:
     no_replica_ty2 = pickle.load(input)
 
     no_epochs_ty2 = pickle.load(input)

@@ -474,7 +474,7 @@ for j in range(len(ss_set)): # for j in range([2,3,4]):
 ##################
 # If you want to rerun the above experiment and save your own results, please uncomment the following line to save your data.
 
-# with open('TI_example_all_data.pkl', 'wb') as output:
+# with open('..data/TI_example_all_data.pkl', 'wb') as output:
 #     I_svCV = I_svCV
 #     pickle.dump(I_svCV, output, pickle.HIGHEST_PROTOCOL)
 #
