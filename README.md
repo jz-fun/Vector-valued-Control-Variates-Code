@@ -41,11 +41,11 @@ my_vvCV_model.saved_BQ_est
 
     * A simpler case is when we only have one target distribution and mulitple integrands, of which code is in the folder `Vector-valued-Control-Variates-Code/src/src_vvCV_MD1P/`.
   
-* To reproduce the results of _South function example_, run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/South_function_pdframe_saved.pkl`).
+* To reproduce the results of _South function example_, run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/data/South_function_pdframe_saved.pkl`).
 
    * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `Vector-valued-Control-Variates-Code/South_Function/South_function_experiments.py` and then run `Vector-valued-Control-Variates-Code/South_Function/Plot_South_function_experiments.py`
 
-* To reproduce the results of _Computation of the Model Evidence for Dynamical Systems_, run `Vector-valued-Control-Variates-Code/TI_Example/Plot_TI_example.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/TI_example_all_data.pkl`).
+* To reproduce the results of _Computation of the Model Evidence for Dynamical Systems_, run `Vector-valued-Control-Variates-Code/TI_Example/Plot_TI_example.py` (this will use the data stored in `Vector-valued-Control-Variates-Code/data/TI_example_all_data.pkl`).
 
    * If you want to rerun the whole experiments, save your own data and get the corresponding plot, read (uncomment the code of storing data) and run `Vector-valued-Control-Variates-Code/TI_Example/Thermodynamic_Integration_experiments.py` and then run `Vector-valued-Control-Variates-Code/TI_Example/Plot_TI_example.py`
 
