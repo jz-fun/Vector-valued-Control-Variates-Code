@@ -30,8 +30,7 @@ my_vvCV_model.do_tune_kernelparams_negmllk(batch_size_tune, flag_if_use_medianhe
 # Step 3. Optimize model parameters
 my_vvCV_model.do_optimize_vv_CV(self, regularizer_const, regularizer_const_FB, batch_size, lr, epochs, verbose=False)
 
-# Step 4. Return simplified CV estimates
-my_vvCV_model.saved_BQ_est
+
 ```
 
 
