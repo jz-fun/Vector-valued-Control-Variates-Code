@@ -67,4 +67,5 @@ If you use the code, please cite our paper.
 
 
 ## Acknowledgement
+- The authors would like to thank Chris J. Oates for helpful discussions.
 - The samples `data.mat` and `samples.mat` of _Computation of the Model Evidence for Dynamical Systems_ are provided by Chris J. Oates, which are the ones used in [Control functionals for Monte Carlo integration](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/rssb.12185).
