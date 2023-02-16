@@ -53,7 +53,7 @@ my_vvCV_model.do_optimize_vv_CV(self, regularizer_const, regularizer_const_FB, b
 
 
 ## Citation
-If you use the code, please cite our paper.
+If you find our paper interesting and relevant, please consider to cite our paper.
 ```bibtex
 @article{sun2021vvCVs,
   title={Vector-Valued Control Variates},
