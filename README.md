@@ -55,11 +55,12 @@ my_vvCV_model.do_optimize_vv_CV(self, regularizer_const, regularizer_const_FB, b
 ## Citation
 If you find our paper interesting and relevant, please consider to cite our paper.
 ```bibtex
-@article{sun2021vvCVs,
+@inproceedings{sun2021vvCVs,
   title={Vector-Valued Control Variates},
   author={Sun, Zhuo and Barp, Alessandro and Briol, Fran{\c{c}}ois-Xavier},
-  journal={arXiv preprint arXiv:2109.08944},
-  year={2021}
+  booktitle={International Conference on Machine Learning},
+  year={2023},
+  organization={PMLR}
 }
 ```
 
